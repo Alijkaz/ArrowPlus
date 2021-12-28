@@ -44,7 +44,7 @@ public class InfinityArrow implements Listener {
 
 		ShapedRecipe sr = new ShapedRecipe(new NamespacedKey(ArrowPlus.getInt(), keyValue), arrow);
 		sr.shape("B F", " D ", "  C");
-		sr.setIngredient('B', new RecipeChoice.ExactChoice(BundleArrow.arrow));
+		sr.setIngredient('B', new RecipeChoice.ExactChoice(BundledArrow.getArrow()));
 		sr.setIngredient('F', new RecipeChoice.ExactChoice(FishArrow.arrow));
 		sr.setIngredient('D', new RecipeChoice.ExactChoice(DiamondArrow.arrow));
 		sr.setIngredient('C', new RecipeChoice.ExactChoice(CrystalArrow.arrow));

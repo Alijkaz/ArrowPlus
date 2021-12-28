@@ -1,6 +1,6 @@
 name: ArrowPlus
 version: '${project.version}'
 main: ir.ciph3r.arrowplus.ArrowPlus
-api-version: 1.18
+api-version: 1.14
 authors: [ Ciph3r ]
 description: Custom cool arrows added to the game

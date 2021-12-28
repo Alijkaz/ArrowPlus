@@ -48,7 +48,7 @@ public class DiamondArrow implements Listener {
 		ShapedRecipe sr = new ShapedRecipe(new NamespacedKey(ArrowPlus.getInt(), keyValue), arrow);
 		sr.shape("XXX", "XAX", "XXX");
 		sr.setIngredient('X', Material.DIAMOND);
-		sr.setIngredient('A', new RecipeChoice.ExactChoice(TestArrow.arrow));
+		sr.setIngredient('A', new RecipeChoice.ExactChoice(BundledArrow.getArrow()));
 		Bukkit.getServer().addRecipe(sr);
 
 		lootItems.add(new ItemStack(Material.DIAMOND, 1));

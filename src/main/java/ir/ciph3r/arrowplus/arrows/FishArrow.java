@@ -46,7 +46,7 @@ public class FishArrow implements Listener {
 		sr.shape("SCS", "CAC", "SCS");
 		sr.setIngredient('S', Material.SALMON);
 		sr.setIngredient('C', Material.COD);
-		sr.setIngredient('A', new RecipeChoice.ExactChoice(BundleArrow.arrow));
+		sr.setIngredient('A', new RecipeChoice.ExactChoice(BundledArrow.getArrow()));
 		Bukkit.getServer().addRecipe(sr);
 
 		fishTypes.add(EntityType.AXOLOTL);
